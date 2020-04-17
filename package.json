@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "mocha tests && yarn lint"
+  },
+  "name": "mini.fetch-pokemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CarlosIUSalazar/cc12-mini.fetch-pokemon.git",
+  "author": "Carlos Salazar <carlosiusalazar@gmail.com>",
+  "license": "MIT"
+}
