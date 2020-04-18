@@ -14,7 +14,7 @@
         return pokeNames;
       })
       .catch((err) => {
-        //console.error("Error", err);
+        console.error("Error", err);
       })
         //return hello;
     }
@@ -38,9 +38,17 @@
         resultArray.push(resultsData2)
       }
       }
-
-      console.log(resultArray)
+      //console.log(resultArray)
       return(resultArray)
+    }
+  }
+
+// let g = new Pokemonager;
+// console.log("TESTTTTTT", g.findUnderWeight(140))
+
+  window.Pokemonager = Pokemonager;
+})();
+
 
     // let pokeArray = [];
     // const url ='https://pokeapi.co/api/v2/pokemon?limit=10';
@@ -73,14 +81,3 @@
     // .catch((err) => {
     //   console.log("Error", err);
     // })
-    }
-  }
-
-// let g = new Pokemonager;
-// console.log("TESTTTTTT", g.findUnderWeight(140))
-
-  window.Pokemonager = Pokemonager;
-})();
-
-
-//module.exports = Pokemonager;
