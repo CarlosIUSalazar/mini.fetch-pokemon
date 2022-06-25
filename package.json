@@ -3,7 +3,7 @@
     "axios": "^0.19.2",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   },
   "scripts": {
     "test": "mocha tests && yarn lint"
